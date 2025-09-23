@@ -1,8 +1,16 @@
+import BackgroundColors from "./BackgroundColors";
+import Dimensions from "./Dimensions";
+import ForegroundColors from "./ForegroundColors";
 import "./index.css";
+import Positions from "./Positions";
 export default function Lab2() {
   return (
     <div id="wd-lab2">
       <h2>Lab 2 - Cascading Style Sheets</h2>
+      <Positions />
+      <Dimensions />
+      <BackgroundColors />
+      <ForegroundColors />
       <div id="wd-css-id-selectors">
         <h3>ID selectors</h3>
         <p id="wd-id-selector-1">
@@ -16,7 +24,7 @@ export default function Lab2() {
       </div>
 
       <h3>Styling with the STYLE attribute</h3>
-      <p>
+      <p id="abc">
         Style attribute allows configuring look and feel right on the element.
         Although it&apos;s very convenient it is considered bad practice and you
         should avoid using the style attribute

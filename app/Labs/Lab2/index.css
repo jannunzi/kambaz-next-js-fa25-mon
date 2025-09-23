@@ -1,6 +1,12 @@
-/*p {
- background-color: green;
- color: white;}*/
+/* p#abc {
+  background-color: red;
+  color: white;
+}
+
+p {
+  background-color: green;
+  color: white;
+} */
 p#wd-id-selector-1 {
   background-color: red;
   color: white;
@@ -8,4 +14,81 @@ p#wd-id-selector-1 {
 p#wd-id-selector-2 {
   background-color: yellow;
   color: black;
+}
+.wd-fg-color-black {
+  color: black;
+}
+.wd-fg-color-white {
+  color: white;
+}
+.wd-fg-color-blue {
+  color: #7070ff;
+}
+.wd-fg-color-red {
+  color: #ff7070;
+}
+.wd-fg-color-green {
+  color: green;
+}
+.wd-bg-color-yellow {
+  background-color: #ffff07;
+}
+.wd-bg-color-blue {
+  background-color: #7070ff;
+}
+.wd-bg-color-red {
+  background-color: #ff7070;
+}
+.wd-bg-color-green {
+  background-color: green;
+}
+.wd-bg-color-gray {
+  background-color: lightgray;
+}
+.wd-dimension-portrait {
+  width: 75px;
+  height: 100px;
+}
+.wd-dimension-landscape {
+  width: 100px;
+  height: 75px;
+}
+.wd-dimension-square {
+  width: 75px;
+  height: 75px;
+}
+.wd-pos-relative-nudge-down-right {
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+.wd-pos-relative-nudge-up-right {
+  position: relative;
+  bottom: 30px;
+  left: 30px;
+}
+.wd-pos-absolute-10-10 {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.wd-pos-relative {
+  position: relative;
+  /* top: 20px;
+  left: 20px; */
+}
+.wd-pos-absolute-50-50 {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+.wd-pos-absolute-120-20 {
+  position: absolute;
+  top: 20px;
+  left: 120px;
+}
+
+.wd-zindex-bring-to-front {
+  z-index: 10;
 }
