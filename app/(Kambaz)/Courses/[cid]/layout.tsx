@@ -9,18 +9,12 @@ export default async function CoursesLayout({
     <div id="wd-courses">
       <h2>Courses {cid}</h2>
       <hr />
-      <table>
-        <tbody>
-          <tr>
-            <td valign="top" width="200">
-              <CourseNavigation />
-            </td>
-            <td valign="top" width="100%">
-              {children}
-            </td>
-          </tr>
-        </tbody>
-      </table>
+      <div className="d-flex">
+        <div className="d-md-block">
+          <CourseNavigation />
+        </div>
+        <div className="flex-fill">{children}</div>
+      </div>
     </div>
   );
 }

@@ -1,34 +1,43 @@
+import { Container } from "react-bootstrap";
 import BackgroundColors from "./BackgroundColors";
 import Dimensions from "./Dimensions";
 import ForegroundColors from "./ForegroundColors";
 import "./index.css";
 import Positions from "./Positions";
+import BootstrapGrids from "./BootstrapGrids";
+import ScreenSizeLabel from "./ScreenSizeLabel";
+import ResponsiveTables from "./ResponsiveTables";
 export default function Lab2() {
   return (
-    <div id="wd-lab2">
-      <h2>Lab 2 - Cascading Style Sheets</h2>
-      <Positions />
-      <Dimensions />
-      <BackgroundColors />
-      <ForegroundColors />
-      <div id="wd-css-id-selectors">
-        <h3>ID selectors</h3>
-        <p id="wd-id-selector-1">
-          Instead of changing the look and feel of all the elements of the same
-          name, e.g., P, we can refer to a specific element by its ID
-        </p>
-        <p id="wd-id-selector-2">
-          Here&apos;s another paragraph using a different ID and a different
-          look and feel
+    <Container>
+      <div id="wd-lab2">
+        <h2>Lab 2 - Cascading Style Sheets</h2>
+        <ResponsiveTables />
+        <ScreenSizeLabel />
+        <BootstrapGrids />
+        <Positions />
+        <Dimensions />
+        <BackgroundColors />
+        <ForegroundColors />
+        <div id="wd-css-id-selectors">
+          <h3>ID selectors</h3>
+          <p id="wd-id-selector-1">
+            Instead of changing the look and feel of all the elements of the
+            same name, e.g., P, we can refer to a specific element by its ID
+          </p>
+          <p id="wd-id-selector-2">
+            Here&apos;s another paragraph using a different ID and a different
+            look and feel
+          </p>
+        </div>
+
+        <h3>Styling with the STYLE attribute</h3>
+        <p id="abc">
+          Style attribute allows configuring look and feel right on the element.
+          Although it&apos;s very convenient it is considered bad practice and
+          you should avoid using the style attribute
         </p>
       </div>
-
-      <h3>Styling with the STYLE attribute</h3>
-      <p id="abc">
-        Style attribute allows configuring look and feel right on the element.
-        Although it&apos;s very convenient it is considered bad practice and you
-        should avoid using the style attribute
-      </p>
-    </div>
+    </Container>
   );
 }
