@@ -17,42 +17,43 @@ export default function KambazNavigation() {
         href="/Account"
         className="bg-white text-danger text-center border-0"
       >
-        <FaRegUserCircle className="fs-1" /> <br /> Account
+        <FaRegUserCircle className="fs-1" /> <br />
+        Account
       </ListGroupItem>
       <ListGroupItem
         as={Link}
         href="/Dashboard"
-        className="bg-black text-danger text-center border-0"
+        className="bg-black text-white text-center border-0"
       >
-        <MdSpaceDashboard className="fs-1" /> <br /> Dashboard
+        <MdSpaceDashboard className="fs-1 text-danger" /> <br /> Dashboard
       </ListGroupItem>
       <ListGroupItem
         as={Link}
         href="/Courses"
-        className="bg-black text-danger text-center border-0"
+        className="bg-black text-white text-center border-0"
       >
-        <FaBookDead className="fs-1" /> <br /> Courses
+        <FaBookDead className="fs-1 text-danger" /> <br /> Courses
       </ListGroupItem>
       <ListGroupItem
         as={Link}
         href="/Calendar"
-        className="bg-black text-danger text-center border-0"
+        className="bg-black text-white text-center border-0"
       >
-        <FaCalendarAlt className="fs-1" /> <br /> Calendar
+        <FaCalendarAlt className="fs-1 text-danger" /> <br /> Calendar
       </ListGroupItem>
       <ListGroupItem
         as={Link}
         href="/Inbox"
-        className="bg-black text-danger text-center border-0"
+        className="bg-black text-white text-center border-0"
       >
-        <FaRegUserCircle className="fs-1" /> <br /> Inbox
+        <FaRegUserCircle className="fs-1 text-danger" /> <br /> Inbox
       </ListGroupItem>
       <ListGroupItem
         as={Link}
         href="/Labs"
-        className="bg-black text-danger text-center border-0"
+        className="bg-black text-white text-center border-0"
       >
-        <CiBeaker1 className="fs-1" /> <br />
+        <CiBeaker1 className="fs-1 text-danger" /> <br />
         Labs
       </ListGroupItem>
     </ListGroup>
