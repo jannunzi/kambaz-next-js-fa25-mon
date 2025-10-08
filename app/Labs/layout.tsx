@@ -7,7 +7,7 @@ export default function LabsLayout({
   return (
     <div>
       <TOC />
-      <div>{children}</div>
+      <div className="container-fluid">{children}</div>
     </div>
   );
 }
