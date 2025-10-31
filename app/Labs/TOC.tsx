@@ -23,7 +23,12 @@ export default function TOC() {
         </Link>{" "}
       </li>{" "}
       <li>
-        <Link href="/" id="wd-lab3-link">
+        <Link href="/Labs/Lab5" id="wd-lab5-link">
+          Lab 5{" "}
+        </Link>{" "}
+      </li>{" "}
+      <li>
+        <Link href="/" id="wd-home-link">
           Kambaz{" "}
         </Link>{" "}
       </li>{" "}
