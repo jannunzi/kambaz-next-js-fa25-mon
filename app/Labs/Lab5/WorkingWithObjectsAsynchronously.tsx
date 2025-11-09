@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import * as client from "./client";
 
 export default function WorkingWithObjectsAsynchronously() {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [assignment, setAssignment] = useState<any>({});
 
   const fetchAssignment = async () => {
